@@ -1,29 +1,238 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
 		<title>黄狗嘶哈嘶哈(∂ω∂)</title>
+		<link href="style.css" title="style" rel="stylesheet" type="text/css" />
+		<link id="clink" href="css/potato.css" title="style" rel="stylesheet" type="text/css" media="screen" />
+		<script src="scripts/jquery.min.js" type="text/javascript"></script>
+		<script src="scripts/jquery.masonry.min.js" type="text/javascript"></script>
+		<script src="scripts/jquery.easing.1.3.js" type="text/javascript"></script>
+		<script src="scripts/MetroJs.lt.js" type="text/javascript"></script>
+		<script src="scripts/jquery.fancybox-1.3.4.js" type="text/javascript" charset="utf-8"></script>
+		<script src="scripts/jquery.flexslider-min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="scripts/jquery.jplayer.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="scripts/hoverintent.js" type="text/javascript" charset="utf-8"></script>
+		<script src="scripts/organictabs.jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="scripts/javascript.js" type="text/javascript"></script>
+		<script src="scripts/mediaplayer.js" type="text/javascript"></script>
 	</head>
 	<body>
-		<p>网站还在建设<strike>（咕咕）</strike>中<br />
-		先凑合着看吧呜呜呜</p>
-		<p>Bilibili→【<a href="https://space.bilibili.com/7655637">点这里</a>】<br />
-		<i>给个三连吧诶嘿嘿~</i></p>
-		<p>Bilibili直播间→【<a href="https://live.bilibili.com/877904">点这里</a>】<br />
-		<i>快来关注！！！不定期营业！！！</i></p>
-		<p>个人QQ→【<a href="https://qm.qq.com/cgi-bin/qm/qr?k=_Lvp_12vx-ASX5IJ5WpUbXa4qzBfJa4f&noverify=0">点这里</a>】<br />
-		<i>欢迎来扩列哇！</i></p>
-		<p>QQ群聊(MMD兽人—从入门到掉毛)→【<a href="https://jq.qq.com/?_wv=1027&k=sKbQtv3T">点这里</a>】<br />
-		<i>只是普通的水群啦xx</i></p>
-		<p>个人配布站→【<a href="https://dl.moku.ink/dlsite">点这里</a>】<br />
-		<i>下次一定更新（（就是公开下载的东西啦比如模型和音源什么的</i></p>
-		<p>Steam→【<a href="https://steamcommunity.com/id/minmoku">点这里</a>】<br />
-		<i>快来一起玩uwu</i></p>
-		<p>Twitter→【<a href="https://twitter.com/Vct_liss">点这里</a>】<br />
-		<i>怪诶</i></p>
-		<p>Facebook(Messenger)→【<a href="https://twitter.com/Vct_liss">点这里</a>】<br />
-		<i>fb不常用啦~但是有用Messenger聊天！</i></p>
-		<p>Zenly→【<a href="https://zen.ly/Vikot106">点这里</a>】<br />
-		<i>是小冰棍哦！</i></p>
+		<div id="bodypat">
+			<section id="container">
+				<!-- BEGIN HEADER -->
+				<header class="clearfix">
+					<!-- BEGIN LOGO -->
+					<a id="headerlink" href="#" title="home"><img id="logo" src="images/logo.png" alt="logo" /><span
+							id="sitename">YO! 你好呀~</span></a>
+					<!-- END LOGO -->
+				</header>
+				<!-- END HEADER -->
+
+				<!-- BEGIN MAIN PAGE CONTENT -->
+				<section class="mainpage">
+					<!-- BEGIN TOGGLE CONTENT -->
+					<div class="toggle-button"><span class="toggle-indicator">-</span></div>
+
+					<div class="toggle-content open">
+						<div class="flexslider mainslide">
+							<ul class="slides">
+								<li>
+									<img src="images/slideimg1.png" alt="默彦明" />
+									<p class="flex-title">默彦明</p>
+								</li>
+								<li>
+									<img src="images/slideimg2.png" alt="泯默" />
+									<p class="flex-title">泯默</p>
+								</li>
+								<li>
+									<img src="images/slideimg3.png" alt="Syrodax" />
+									<p class="flex-title">Syrodax</p>
+								</li>
+							</ul>
+						</div><!-- end .flexslider -->
+
+						<div class="quote-bg1">
+							<div class="quote-w">你好呀，很高兴认识你 ! 这里是来自东北的学计算机的泯默 ！ 可以叫咱默默/黄狗（？ 咱儿子是一只黄色的狼~叫做默彦明 ！ 目前咱在在B站活动哦~
+								欢迎关注欢迎扩列 ！！</div>
+						</div>
+
+					</div><!-- end .toggle-content -->
+					<!-- END TOGGLE CONTENT -->
+				</section><!-- end #mainpage -->
+
+				<div id="loader"></div><!-- loader image for AJAX -->
+
+
+				<!-- BEGIN CONTENT -->
+				<section id="content" class="clearfix">
+					<!-- BEGIN PAGE -->
+					<section id="page">
+						<!-- BEGIN PAGE CONTENT -->
+						<div id="pg-content" class="centered clearfix">
+
+							<div id="about-container">
+								<a href="https://space.bilibili.com/7655637" target="_blank" class="no-text-dec">
+									<div class="about-person">
+										<img class="about-portrait" src="images/social/bili.png" alt="bili" />
+										<h3>Bilibili</h3>
+										<p>给个三连吧诶嘿嘿~</p>
+									</div>
+								</a>
+
+								<a href="https://live.bilibili.com/877904" target="_blank" class="no-text-dec">
+									<div class="about-person">
+										<img class="about-portrait" src="images/social/blive.png" alt="blive" />
+										<h3>Bilibili直播</h3>
+										<p>快来关注！不定期营业！！</p>
+									</div>
+								</a>
+
+								<a href="https://qm.qq.com/cgi-bin/qm/qr?k=_Lvp_12vx-ASX5IJ5WpUbXa4qzBfJa4f&noverify=0"
+									target="_blank" class="no-text-dec">
+									<div class="about-person">
+										<img class="about-portrait" src="images/social/qq.png" alt="qq" />
+										<h3>个人QQ</h3>
+										<p>1789157552，欢迎来扩列哇！</p>
+									</div>
+								</a>
+
+								<a href="https://jq.qq.com/?_wv=1027&k=sKbQtv3T" target="_blank"
+									class="no-text-dec last">
+									<div class="about-person">
+										<img class="about-portrait" src="images/social/qq_group.png" alt="qq_group" />
+										<h3>QQ群聊</h3>
+										<p>只是普通的水群啦xx</p>
+									</div>
+								</a>
+								<a href="https://zen.ly/Vikot106" target="_blank" class="no-text-dec">
+									<div class="about-person">
+										<img class="about-portrait" src="images/social/zenly.png" alt="zenly" />
+										<h3>Zenly</h3>
+										<p>没错！是小冰棍！</p>
+									</div>
+								</a>
+								<a href="https://steamcommunity.com/id/minmoku" target="_blank" class="no-text-dec">
+									<div class="about-person">
+										<img class="about-portrait" src="images/social/steam.png" alt="steam" />
+										<h3>Steam</h3>
+										<p>快来一起玩uwu</p>
+									</div>
+								</a>
+								<a href="https://twitter.com/Vct_liss" target="_blank" class="no-text-dec">
+									<div class="about-person">
+										<img class="about-portrait" src="images/social/twitter.png" alt="twitter" />
+										<h3>Twitter</h3>
+										<p>怪诶</p>
+									</div>
+								</a>
+								<a href="https://www.facebook.com/profile.php?id=100009631508833" target="_blank"
+									class="no-text-dec last">
+									<div class="about-person">
+										<img class="about-portrait" src="images/social/messenger.png" alt="messenger" />
+										<h3>Messenger</h3>
+										<p>FB不常用~来Messenger聊天</p>
+									</div>
+								</a>
+								<a href="https://dl.moku.ink/dlsite" target="_blank" class="no-text-dec">
+									<div class="about-person">
+										<img class="about-portrait" src="images/social/dlsite.png" alt="dlsite" />
+										<h3>配布下载站</h3>
+										<p>下次一定更新（（</p>
+									</div>
+								</a>
+								<a href="https://mokune.lofter.com/post/1eacad79_1ca8fc273" target="_blank"
+									class="no-text-dec">
+									<div class="about-person">
+										<img class="about-portrait" src="images/social/evan.png" alt="zenly" />
+										<h3>音源+模型下载</h3>
+										<p>求求了产点粮吧qwq</p>
+									</div>
+								</a>
+								<a href="#" class="no-text-dec">
+									<div class="about-person">
+										<img class="about-portrait" src="images/social/model.png" alt="model" />
+										<h3>3D模型在线体验</h3>
+										<p>页面在写了！</p>
+									</div>
+								</a>
+								<a href="#" class="no-text-dec last">
+									<div class="about-person">
+										<img class="about-portrait" src="images/social/wait.png" alt="..." />
+										<h3>敬请期待...</h3>
+										<p>在肝了在肝了呜呜</p>
+									</div>
+								</a>
+							</div><!-- end #pg-content -->
+							<!-- END PAGE CONTENT -->
+					</section>
+					<!-- END PAGE -->
+				</section>
+				<!-- END CONTENT -->
+
+
+				<section class="mainpage">
+					<!-- BEGIN TOGGLE CONTENT -->
+					<div class="toggle-button"><span class="toggle-indicator">-</span></div>
+
+					<div class="toggle-content open clearfix">
+						<!-- Item 1 -->
+						<div class="fixed-medium">
+							<div class="highlights">
+								<img class="themecolor" src="images/onekey.png" alt="赞" />
+							</div>
+							<div class="highlights-txt">
+								<h2>你造吗</h2>
+								<p>泯默最喜欢的角色是来自日本的“獣音ロウ”，国内常被叫做“兽音洛”、“式洛缘”（这是泯默的翻译）。
+									是只蓝色的可爱狼狼~ 声音也很可爱哦~ 洛洛最喜欢的食物是土豆，所以泯默的粉丝牌是土豆狂哦XD~
+								</p>
+							</div>
+						</div>
+						<!-- Item 2 -->
+						<div class="fixed-medium">
+							<div class="highlights">
+								<img class="themecolor" src="images/san.png" alt="币" />
+							</div>
+							<div class="highlights-txt">
+								<h2>你造吗</h2>
+								<p>
+									某次直播时有人问到默彦明是什么颜色，然后有弹幕回复说土豆色www（其实是奶茶色啦XDD），于是默彦明与土豆也有了奇妙的关系uwu。
+								</p>
+							</div>
+						</div>
+						<!-- Item 3 -->
+						<div class="fixed-medium last">
+							<div class="highlights">
+								<img class="themecolor" src="images/lian.png" alt="收藏" />
+							</div>
+							<div class="highlights-txt">
+								<h2>你造吗</h2>
+								<p>
+									默彦明的模型经历过三次改动更新哦~同时有着MMD和VRchat等模型哦！这里要十分感谢Syrodax的关照啦www~
+								</p>
+							</div>
+						</div>
+
+					</div><!-- end .toggle-content -->
+					<!-- END TOGGLE CONTENT -->
+
+				</section><!-- end .main-page -->
+				<!-- END MAIN PAGE CONTENT -->
+
+				<!-- BEGIN FOOTER -->
+				<footer class="clearfix">
+
+					<div id="footer-social">
+						<a href="mailto:Vikot106@hotmail.com" target="_blank"><span class="email-mini"></span></a>
+						<a href="https://github.com/Vikot106" target="_blank"><span class="github-mini"></span></a>
+					</div><!-- end #footer-social -->
+
+					<small>上一次编辑日期：2021-08-05</small>
+				</footer>
+				<!-- END FOOTER -->
+
+			</section><!-- end #container -->
+		</div>
 	</body>
 </html>
